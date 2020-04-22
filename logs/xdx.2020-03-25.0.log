@@ -1,0 +1,1207 @@
+07:56:12.827 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 8336 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+07:56:12.830 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+07:56:13.802 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+07:56:14.351 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+07:56:14.364 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+07:56:14.365 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+07:56:14.365 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+07:56:14.484 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+07:56:14.485 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1553 ms
+07:56:14.651 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+07:56:15.550 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:56:15.768 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:56:15.771 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:56:15.783 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:56:15.785 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:56:15.795 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:56:15.796 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:56:15.806 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:56:15.807 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:56:15.816 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:56:15.819 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+07:56:16.709 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+07:56:16.711 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+07:56:16.937 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+07:56:16.960 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+07:56:16.963 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 5.292 seconds (JVM running for 7.377)
+07:56:35.708 [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1561993815,1562078057; MEIQIA_EXTRA_TRACK_ID=1LSJwD9gZ3nQrCJhtGSzrxgUsQq; Hm_lvt_03748b4a01419b3ffb52fdf2b71744af=1562682490; Idea-f60c4641=f260e6fb-c7ac-41ee-8734-6b5e358ec077] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+07:56:35.715 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07:56:35.715 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+07:56:35.724 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+07:56:50.000 [http-nio-8080-exec-2] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/ele/admin/list
+08:02:27.605 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 9208 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:02:27.608 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:02:28.739 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:02:29.440 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:02:29.454 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:02:29.455 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:02:29.455 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:02:29.591 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:02:29.591 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1914 ms
+08:02:29.907 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:02:30.720 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:02:30.959 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:02:30.963 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:02:30.977 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:02:30.979 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:02:30.991 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:02:30.993 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:02:31.006 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:02:31.008 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:02:31.019 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:02:31.023 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:02:32.331 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+08:02:32.333 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+08:02:32.749 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:02:32.781 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:02:32.785 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 5.782 seconds (JVM running for 7.093)
+08:05:04.552 [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1561993815,1562078057; MEIQIA_EXTRA_TRACK_ID=1LSJwD9gZ3nQrCJhtGSzrxgUsQq; Hm_lvt_03748b4a01419b3ffb52fdf2b71744af=1562682490; Idea-f60c4641=f260e6fb-c7ac-41ee-8734-6b5e358ec077; JSESSIONID=44FBC8C738BDB1D58D0BAD60DC8C3491] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+08:05:04.564 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:05:04.564 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08:05:04.578 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+08:05:45.503 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 6096 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:05:45.507 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:05:46.534 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:05:46.996 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:05:47.004 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:05:47.005 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:05:47.005 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:05:47.107 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:05:47.108 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1432 ms
+08:05:47.235 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:05:47.945 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:48.115 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:48.118 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:48.129 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:48.131 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:48.142 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:48.143 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:48.156 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:48.157 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:48.168 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:48.171 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:05:48.929 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [com/xdx/garbage/common/config/BackInterceptorConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'pointController' method 
+com.xdx.garbage.controller.mini.PointController#hello()
+to { /mini/hello}: There is already 'indexController' bean method
+com.xdx.garbage.controller.mini.IndexController#hello() mapped.
+08:05:48.930 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+08:05:48.933 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+08:05:48.936 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+08:05:48.946 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+08:05:48.955 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [com/xdx/garbage/common/config/BackInterceptorConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'pointController' method 
+com.xdx.garbage.controller.mini.PointController#hello()
+to { /mini/hello}: There is already 'indexController' bean method
+com.xdx.garbage.controller.mini.IndexController#hello() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.xdx.garbage.GarbageApplication.main(GarbageApplication.java:24)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'pointController' method 
+com.xdx.garbage.controller.mini.PointController#hello()
+to { /mini/hello}: There is already 'indexController' bean method
+com.xdx.garbage.controller.mini.IndexController#hello() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:632)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:599)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:379)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:78)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:190)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 16 common frames omitted
+08:40:09.555 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 12212 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:40:09.557 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:40:10.544 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:40:11.014 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:40:11.023 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:40:11.024 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:40:11.024 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:40:11.130 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:40:11.130 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1344 ms
+08:40:11.259 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:40:11.972 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:40:12.147 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:40:12.150 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:40:12.161 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:40:12.162 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:40:12.172 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:40:12.173 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:40:12.183 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:40:12.185 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:40:12.194 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:40:12.197 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:40:13.081 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+08:40:13.083 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+08:40:13.311 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:40:13.333 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:40:13.337 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 4.318 seconds (JVM running for 5.489)
+22:07:56.261 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 25496 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+22:07:56.263 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+22:07:57.257 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+22:07:57.778 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+22:07:57.788 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:07:57.788 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:07:57.788 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+22:07:57.899 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:07:57.899 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1572 ms
+22:07:58.034 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:07:59.158 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:07:59.397 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:07:59.400 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:07:59.415 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:07:59.418 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:07:59.431 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:07:59.432 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:07:59.446 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:07:59.447 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:07:59.475 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:07:59.479 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:08:00.464 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+22:08:00.466 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+22:08:00.658 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:08:00.694 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+22:08:00.698 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 5.362 seconds (JVM running for 6.833)
+22:12:40.005 [http-nio-8080-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:12:40.005 [http-nio-8080-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:12:40.015 [http-nio-8080-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+22:12:40.050 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:12:40.051 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:12:40.841 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:12:40.920 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:12:40.944 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 0
+22:12:40.954 [http-nio-8080-exec-7] DEBUG c.x.g.d.TUserMapper.insertSelective - ==>  Preparing: INSERT INTO t_user ( id,open_id ) VALUES( ?,? ) 
+22:12:40.959 [http-nio-8080-exec-7] DEBUG c.x.g.d.TUserMapper.insertSelective - ==> Parameters: null, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:12:40.964 [http-nio-8080-exec-7] DEBUG c.x.g.d.TUserMapper.insertSelective - <==    Updates: 1
+22:12:40.968 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.insertSelective!selectKey - ==>  Executing: SELECT LAST_INSERT_ID() 
+22:12:40.969 [http-nio-8080-exec-7] TRACE c.x.g.d.T.insertSelective!selectKey - <==    Columns: LAST_INSERT_ID()
+22:12:40.970 [http-nio-8080-exec-7] TRACE c.x.g.d.T.insertSelective!selectKey - <==        Row: 1
+22:12:40.971 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.insertSelective!selectKey - <==      Total: 1
+22:12:40.979 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:12:40.980 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:12:40.981 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:12:40.983 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:12:40.984 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:14:25.956 [http-nio-8080-exec-10] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:14:25.956 [http-nio-8080-exec-10] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:14:26.273 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:14:26.274 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:14:26.275 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:14:26.276 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:14:26.276 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:14:26.284 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:14:26.285 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:14:26.286 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:14:26.286 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:14:26.287 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:14:26.350 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id null 
+22:14:26.355 [http-nio-8080-exec-5] ERROR c.a.druid.filter.stat.StatFilter - merge sql error, dbType mysql, druid-1.1.21, sql : SELECT  id,create_time,update_time,is_del,status,photo_src,jump_url,show_place  FROM t_carousel  WHERE       (  is_del = ? ) order by id null
+com.alibaba.druid.sql.parser.ParserException: syntax error, error in :'y id null', expect NULL, actual NULL pos 141, line 1, column 137, token NULL
+	at com.alibaba.druid.sql.parser.SQLParser.printError(SQLParser.java:344)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:532)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:171)
+	at com.alibaba.druid.sql.visitor.ParameterizedOutputVisitorUtils.parameterize(ParameterizedOutputVisitorUtils.java:98)
+	at com.alibaba.druid.sql.visitor.ParameterizedOutputVisitorUtils.parameterize(ParameterizedOutputVisitorUtils.java:81)
+	at com.alibaba.druid.sql.visitor.ParameterizedOutputVisitorUtils.parameterize(ParameterizedOutputVisitorUtils.java:54)
+	at com.alibaba.druid.filter.stat.StatFilter.mergeSql(StatFilter.java:147)
+	at com.alibaba.druid.filter.stat.StatFilter.createSqlStat(StatFilter.java:648)
+	at com.alibaba.druid.filter.stat.StatFilter.statementPrepareAfter(StatFilter.java:311)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:124)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:568)
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:930)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:568)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:341)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.ConnectionLogger.invoke(ConnectionLogger.java:55)
+	at com.sun.proxy.$Proxy101.prepareStatement(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:86)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy100.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy70.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy83.selectByExample(Unknown Source)
+	at com.xdx.garbage.service.impl.CarouselServiceImpl.selectListByQueryParam(CarouselServiceImpl.java:26)
+	at com.xdx.garbage.controller.mini.IndexController.index(IndexController.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+22:14:26.357 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:14:26.372 [http-nio-8080-exec-5] ERROR druid.sql.Statement - {conn-10005, pstmt-20006} execute error. SELECT  id,create_time,update_time,is_del,status,photo_src,jump_url,show_place  FROM t_carousel  WHERE       (  is_del = ? ) order by id null
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_execute(FilterAdapter.java:1081)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy102.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy100.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy70.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy83.selectByExample(Unknown Source)
+	at com.xdx.garbage.service.impl.CarouselServiceImpl.selectListByQueryParam(CarouselServiceImpl.java:26)
+	at com.xdx.garbage.controller.mini.IndexController.index(IndexController.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+22:14:26.431 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+### The error may exist in com/xdx/garbage/dao/TCarouselMapper.java (best guess)
+### The error may involve com.xdx.garbage.dao.TCarouselMapper.selectByExample-Inline
+### The error occurred while setting parameters
+### SQL: SELECT  id,create_time,update_time,is_del,status,photo_src,jump_url,show_place  FROM t_carousel  WHERE       (  is_del = ? ) order by id null
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3461)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_execute(FilterAdapter.java:1081)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3459)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:167)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy102.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:143)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy100.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy70.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy83.selectByExample(Unknown Source)
+	at com.xdx.garbage.service.impl.CarouselServiceImpl.selectListByQueryParam(CarouselServiceImpl.java:26)
+	at com.xdx.garbage.controller.mini.IndexController.index(IndexController.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+22:14:26.436 [http-nio-8080-exec-5] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:19:00.395 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 23064 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+22:19:00.398 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+22:19:01.581 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+22:19:02.324 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+22:19:02.340 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:19:02.340 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:19:02.341 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+22:19:02.503 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:19:02.503 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2028 ms
+22:19:02.825 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:19:03.636 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:19:03.891 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:19:03.895 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:19:03.907 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:19:03.909 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:19:03.920 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:19:03.922 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:19:03.932 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:19:03.934 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:19:03.945 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:19:03.949 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:19:05.440 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+22:19:05.443 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+22:19:05.855 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:19:05.883 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+22:19:05.888 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 6.114 seconds (JVM running for 8.037)
+22:19:16.199 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:19:16.200 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:19:16.214 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+22:19:16.270 [http-nio-8080-exec-1] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:19:16.271 [http-nio-8080-exec-1] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:19:16.970 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:19:17.158 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:19:17.191 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:19:17.194 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:19:17.196 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:19:17.209 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:19:17.212 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:19:17.214 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:19:17.214 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:19:17.215 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:19:17.419 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:19:17.424 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:19:17.430 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:19:17.431 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:19:17.432 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:19:17.433 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:19:17.434 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:19:17.435 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:22:55.133 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 24956 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+22:22:55.136 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+22:22:56.222 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+22:22:56.711 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+22:22:56.720 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:22:56.721 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:22:56.721 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+22:22:56.834 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:22:56.835 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1648 ms
+22:22:56.961 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+22:22:57.744 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:22:57.923 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:22:57.926 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:22:57.938 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:22:57.939 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:22:57.950 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:22:57.952 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:22:57.962 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:22:57.963 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+22:22:57.972 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+22:22:57.976 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+22:22:58.937 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+22:22:58.938 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+22:22:59.131 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:22:59.155 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+22:22:59.159 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 4.525 seconds (JVM running for 5.857)
+22:23:57.452 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:23:57.453 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:23:57.460 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+22:23:57.495 [http-nio-8080-exec-1] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:23:57.495 [http-nio-8080-exec-1] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:23:58.036 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:23:58.127 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:23:58.151 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:23:58.153 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:23:58.155 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:23:58.166 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:23:58.168 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:23:58.169 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:23:58.170 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:23:58.171 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:23:58.312 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:23:58.315 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:23:58.317 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:23:58.317 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:23:58.318 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:23:58.319 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:23:58.320 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:23:58.320 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:24:17.529 [http-nio-8080-exec-3] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:24:17.529 [http-nio-8080-exec-3] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:24:17.877 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:24:17.878 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:24:17.879 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:24:17.880 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:24:17.880 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:24:17.888 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:24:17.889 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:24:17.890 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:24:17.891 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:24:17.892 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:24:17.935 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:24:17.936 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:24:17.938 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:24:17.938 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:24:17.939 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:24:17.940 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:24:17.941 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:24:17.941 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:24:18.014 [http-nio-8080-exec-7] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:24:18.014 [http-nio-8080-exec-8] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:24:18.015 [http-nio-8080-exec-6] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:24:18.015 [http-nio-8080-exec-5] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:24:25.542 [http-nio-8080-exec-9] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:24:25.551 [http-nio-8080-exec-10] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:24:25.559 [http-nio-8080-exec-2] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:24:25.568 [http-nio-8080-exec-1] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:24:26.126 [http-nio-8080-exec-3] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:24:26.126 [http-nio-8080-exec-3] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:24:26.430 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:24:26.431 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:24:26.432 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:24:26.433 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:24:26.433 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:24:26.442 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:24:26.442 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:24:26.444 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:24:26.444 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:24:26.445 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:24:26.483 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:24:26.483 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:24:26.485 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:24:26.485 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:24:26.486 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:24:26.487 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:24:26.487 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:24:26.487 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:25:57.297 [http-nio-8080-exec-10] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:25:57.304 [http-nio-8080-exec-2] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:25:57.314 [http-nio-8080-exec-1] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:25:57.331 [http-nio-8080-exec-3] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:25:57.815 [http-nio-8080-exec-4] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:25:57.815 [http-nio-8080-exec-4] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:25:58.258 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:25:58.259 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:25:58.260 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:25:58.261 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:25:58.261 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:25:58.268 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:25:58.269 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:25:58.270 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:25:58.271 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:25:58.271 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:25:58.311 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:25:58.312 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:25:58.313 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:25:58.314 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:25:58.315 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:25:58.315 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:25:58.316 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:25:58.317 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:26:01.139 [http-nio-8080-exec-8] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:26:01.145 [http-nio-8080-exec-9] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:26:01.152 [http-nio-8080-exec-5] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:26:01.160 [http-nio-8080-exec-6] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:26:02.430 [http-nio-8080-exec-10] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:26:02.431 [http-nio-8080-exec-10] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:26:02.939 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:26:02.940 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:26:02.941 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:26:02.942 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:26:02.942 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:26:02.969 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:26:02.969 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:26:02.971 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:26:02.971 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:26:02.972 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:26:03.022 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:26:03.022 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:26:03.024 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:26:03.024 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:26:03.025 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:26:03.025 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:26:03.026 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:26:03.026 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:26:16.441 [http-nio-8080-exec-1] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:26:16.447 [http-nio-8080-exec-3] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:26:16.453 [http-nio-8080-exec-4] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:26:16.455 [http-nio-8080-exec-7] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+22:26:20.208 [http-nio-8080-exec-8] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:26:20.208 [http-nio-8080-exec-8] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:26:20.461 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:26:20.462 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:26:20.464 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:26:20.464 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:26:20.465 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:26:20.473 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:26:20.474 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:26:20.475 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:26:20.475 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:26:20.476 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:26:20.517 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:26:20.518 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:26:20.520 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:26:20.520 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:26:20.521 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:26:20.521 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:26:20.522 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:26:20.522 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:26:50.619 [http-nio-8080-exec-5] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:26:50.619 [http-nio-8080-exec-5] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:26:50.965 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:26:50.966 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:26:50.967 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:26:50.968 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:26:50.968 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:26:50.975 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:26:50.975 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:26:50.976 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:26:50.977 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:26:50.977 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:26:51.018 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:26:51.019 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:26:51.020 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:26:51.021 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:26:51.021 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:26:51.022 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:26:51.022 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:26:51.022 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:29:41.509 [http-nio-8080-exec-4] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:29:41.510 [http-nio-8080-exec-4] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:29:41.781 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:29:41.781 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:29:41.782 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:29:41.783 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:29:41.783 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:29:41.790 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:29:41.791 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:29:41.792 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:29:41.792 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:29:41.794 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:29:41.835 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:29:41.836 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:29:41.837 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:29:41.837 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:29:41.838 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:29:41.838 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:29:41.839 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:29:41.839 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:30:11.812 [http-nio-8080-exec-9] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:30:11.812 [http-nio-8080-exec-9] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:30:12.118 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:30:12.118 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:30:12.119 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:30:12.120 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:30:12.120 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:30:12.127 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:30:12.128 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:30:12.129 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:30:12.129 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:30:12.129 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:30:12.275 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:30:12.275 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:30:12.278 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:30:12.281 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:30:12.281 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:30:12.282 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:30:12.282 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:30:12.283 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:30:15.003 [http-nio-8080-exec-6] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:30:15.003 [http-nio-8080-exec-6] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:30:15.298 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:30:15.299 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:30:15.300 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:30:15.300 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:30:15.300 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:30:15.307 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:30:15.308 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:30:15.309 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:30:15.309 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:30:15.310 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:30:15.345 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:30:15.345 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:30:15.346 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:30:15.347 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:30:15.347 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:30:15.347 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:30:15.348 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:30:15.348 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:31:56.533 [http-nio-8080-exec-1] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:31:56.533 [http-nio-8080-exec-1] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:31:58.153 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:31:58.153 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:31:58.154 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:31:58.155 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:31:58.155 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:31:58.162 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:31:58.163 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:31:58.164 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:31:58.164 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:31:58.165 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:31:58.200 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:31:58.200 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:31:58.201 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:31:58.202 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:31:58.202 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:31:58.202 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:31:58.203 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:31:58.203 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:32:01.199 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:32:01.199 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:32:01.501 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:32:01.502 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:32:01.503 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:32:01.503 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:32:01.503 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:32:01.510 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:32:01.510 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:32:01.511 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:32:01.512 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:32:01.512 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:32:01.547 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:32:01.547 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:32:01.549 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:32:01.549 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:32:01.549 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:32:01.549 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:32:01.550 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:32:01.550 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:32:50.566 [http-nio-8080-exec-8] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:32:50.567 [http-nio-8080-exec-8] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:32:50.809 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:32:50.810 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:32:50.811 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:32:50.811 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:32:50.811 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:32:50.818 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:32:50.819 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:32:50.820 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:32:50.820 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:32:50.820 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:32:50.858 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:32:50.859 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:32:50.860 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:32:50.861 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:32:50.861 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:32:50.861 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:32:50.861 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:32:50.862 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:37:01.399 [http-nio-8080-exec-6] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:37:01.399 [http-nio-8080-exec-6] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:37:03.090 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:37:03.091 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:37:03.092 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:37:03.092 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:37:03.092 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:37:03.099 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:37:03.099 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:37:03.100 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:37:03.100 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:37:03.101 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:37:03.137 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:37:03.138 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:37:03.139 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:37:03.139 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:37:03.139 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:37:03.140 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:37:03.140 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:37:03.140 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:37:11.830 [http-nio-8080-exec-2] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:37:11.830 [http-nio-8080-exec-2] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:37:13.584 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:37:13.585 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:37:13.586 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:37:13.587 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:37:13.587 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:37:13.593 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:37:13.593 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:37:13.595 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:37:13.595 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:37:13.595 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:37:13.630 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:37:13.631 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:37:13.632 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:37:13.632 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:37:13.633 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:37:13.633 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:37:13.633 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:37:13.633 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:38:31.680 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:38:31.680 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:38:35.679 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:38:35.680 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:38:35.681 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:38:35.682 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:38:35.682 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:38:35.689 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:38:35.690 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:38:35.691 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:38:35.691 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:38:35.692 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:38:44.765 [http-nio-8080-exec-4] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:38:44.765 [http-nio-8080-exec-4] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:38:50.940 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:38:50.941 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:38:50.942 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:38:50.942 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:38:50.942 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:38:50.949 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:38:50.949 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:38:50.950 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:38:50.951 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:38:50.951 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:38:50.995 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:38:50.996 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:38:50.997 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:38:50.997 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:38:50.998 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:38:50.998 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:38:50.998 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:38:50.998 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:39:47.400 [http-nio-8080-exec-9] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:39:47.400 [http-nio-8080-exec-9] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:39:52.190 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:39:52.191 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:39:52.192 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:39:52.192 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:39:52.192 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:39:52.199 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:39:52.199 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:39:52.200 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:39:52.200 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:39:52.201 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:39:52.241 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:39:52.242 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:39:52.243 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:39:52.243 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:39:52.244 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:39:52.244 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:39:52.244 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:39:52.245 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:40:55.067 [http-nio-8080-exec-10] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:40:55.068 [http-nio-8080-exec-10] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:41:00.324 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:41:00.324 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:41:00.326 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:41:00.326 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:41:00.326 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:41:00.333 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:41:00.333 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:41:00.334 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:41:00.335 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:41:00.335 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:41:00.373 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:41:00.373 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:41:00.374 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:41:00.374 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:41:00.374 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:41:00.375 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:41:00.375 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:41:00.375 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:42:27.199 [http-nio-8080-exec-3] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:42:27.200 [http-nio-8080-exec-3] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:42:31.696 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:42:31.696 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:42:31.698 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:42:31.698 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:42:31.698 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:42:31.705 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:42:31.706 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:42:31.707 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:42:31.707 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:42:31.707 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:42:54.751 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:42:54.752 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:43:00.727 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:43:00.727 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:43:00.729 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:43:00.729 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:43:00.729 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:43:00.737 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:43:00.737 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:43:00.739 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:43:00.739 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:43:00.739 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:43:00.780 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:43:00.780 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:43:00.781 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:43:00.782 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:43:00.782 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:43:00.782 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:43:00.782 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:43:00.782 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:43:29.263 [http-nio-8080-exec-8] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:43:29.263 [http-nio-8080-exec-8] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:43:32.716 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:43:32.717 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:43:32.718 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:43:32.718 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:43:32.718 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:43:32.726 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:43:32.726 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:43:32.727 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:43:32.727 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:43:32.728 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:43:32.777 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:43:32.777 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:43:32.779 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:43:32.779 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:43:32.779 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:43:32.779 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:43:32.780 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:43:32.780 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:44:37.256 [http-nio-8080-exec-6] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:44:37.256 [http-nio-8080-exec-6] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:44:45.029 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:44:45.030 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:44:45.031 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:44:45.031 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:44:45.031 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:44:45.039 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:44:45.039 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:44:45.040 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:44:45.040 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:44:45.040 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:45:14.454 [http-nio-8080-exec-10] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:45:14.454 [http-nio-8080-exec-10] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:45:19.218 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:45:19.218 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:45:19.219 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:45:19.219 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:45:19.220 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:45:19.226 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:45:19.226 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:45:19.227 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:45:19.227 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:45:19.227 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:45:19.265 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:45:19.265 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:45:19.266 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:45:19.266 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:45:19.267 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:45:19.267 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:45:19.267 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:45:19.267 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:45:44.928 [http-nio-8080-exec-1] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:45:44.929 [http-nio-8080-exec-1] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:45:47.965 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:45:47.966 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:45:47.967 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:45:47.968 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:45:47.968 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:45:47.977 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:45:47.978 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:45:47.979 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:45:47.980 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:45:47.980 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:45:52.578 [http-nio-8080-exec-3] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:45:52.579 [http-nio-8080-exec-3] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:45:56.077 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:45:56.077 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:45:56.078 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:45:56.079 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:45:56.079 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:45:56.085 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:45:56.086 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:45:56.087 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:45:56.087 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:45:56.087 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:45:56.126 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:45:56.127 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:45:56.128 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:45:56.128 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:45:56.128 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:45:56.128 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:45:56.129 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:45:56.129 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:46:22.160 [http-nio-8080-exec-4] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:46:22.160 [http-nio-8080-exec-4] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:46:31.978 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:46:31.978 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:46:31.979 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:46:31.979 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:46:31.980 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:46:31.986 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:46:31.986 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:46:31.987 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:46:31.988 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:46:31.988 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:46:32.029 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:46:32.029 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:46:32.030 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:46:32.030 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:46:32.031 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:46:32.031 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:46:32.031 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:46:32.031 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:47:35.499 [http-nio-8080-exec-5] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:47:35.499 [http-nio-8080-exec-5] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:47:45.339 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:47:45.339 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:47:45.340 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:47:45.340 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:47:45.341 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:47:45.348 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:47:45.348 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:47:45.349 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:47:45.350 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:47:45.350 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:48:09.208 [http-nio-8080-exec-6] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:48:09.208 [http-nio-8080-exec-6] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:48:21.547 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:48:21.548 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:48:21.550 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:48:21.550 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:48:21.551 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:48:21.566 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:48:21.567 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:48:21.568 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:48:21.568 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:48:21.568 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:48:21.606 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:48:21.607 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:48:21.608 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:48:21.608 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:48:21.608 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:48:21.608 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:48:21.608 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:48:21.609 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:49:12.055 [http-nio-8080-exec-2] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:49:12.055 [http-nio-8080-exec-2] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:49:21.539 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:49:21.539 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:49:21.540 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:49:21.540 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:49:21.541 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:49:21.548 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:49:21.549 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:49:21.550 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:49:21.550 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:49:21.550 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:49:21.591 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:49:21.591 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:49:21.593 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:49:21.593 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:49:21.593 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:49:21.594 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:49:21.594 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:49:21.594 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:57:18.271 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:57:18.271 [http-nio-8080-exec-7] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+22:57:27.552 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+22:57:27.553 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+22:57:27.555 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:57:27.555 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:57:27.556 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:57:27.569 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+22:57:27.569 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+22:57:27.571 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+22:57:27.571 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+22:57:27.571 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+22:57:27.614 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+22:57:27.615 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+22:57:27.616 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+22:57:27.616 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+22:57:27.616 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+22:57:27.617 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+22:57:27.617 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+22:57:27.617 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+22:59:58.154 [http-nio-8080-exec-9] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+22:59:58.154 [http-nio-8080-exec-9] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+23:00:05.964 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE open_id = ? 
+23:00:05.964 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+23:00:05.965 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+23:00:05.966 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+23:00:05.966 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+23:00:05.974 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role FROM t_user WHERE id = ? 
+23:00:05.974 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+23:00:05.975 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role
+23:00:05.975 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, null, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, null, null, 0.00, null, 'user'
+23:00:05.976 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+23:00:06.041 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+23:00:06.041 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+23:00:06.042 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+23:00:06.042 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+23:00:06.043 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+23:00:06.043 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+23:00:06.043 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+23:00:06.043 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4

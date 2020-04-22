@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdx.garbage.dao.TNewsMapper">
+  <resultMap id="BaseResultMap" type="com.xdx.garbage.entity.TNews">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_del" jdbcType="INTEGER" property="isDel" />
+    <result column="news_title" jdbcType="VARCHAR" property="newsTitle" />
+    <result column="photo_src" jdbcType="VARCHAR" property="photoSrc" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="jump_url" jdbcType="VARCHAR" property="jumpUrl" />
+    <result column="news_content" jdbcType="LONGVARCHAR" property="newsContent" />
+    <result column="read_num" jdbcType="INTEGER" property="readNum" />
+  </resultMap>
+  
+  <update id="increaseReadNum" parameterType="com.xdx.garbage.dao.TNewsMapper">
+    update t_news
+    set
+    read_num=read_num+1
+    where
+    id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

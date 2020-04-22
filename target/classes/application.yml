@@ -1,0 +1,42 @@
+server:
+  port: 8080
+spring:
+  output:
+    ansi:
+      enabled: always
+  thymeleaf:
+    cache: false
+  profiles:
+    active:
+      dev
+  #允许用户自定义的类覆盖系统提供的类
+  main:
+    allow-bean-definition-overriding: true
+  # 静态文件请求匹配方式 （只要是请求路径配到到了 就访问下面配置的默认静态资源路径）
+  mvc:
+    static-path-pattern: /static/*,/upload/*
+#日志
+logging:
+  #这种方法是使用xml的配置文件的形式配置，该xml配置文件规定了日志的格式，级别等信息
+  config: classpath:logback.xml
+  level:
+    com.xdx.garbage.dao: trace
+mybatis:
+  #xml文件存放位置
+  mapper-locations: classpath*:/mapper/*.xml
+  #实体类存放位置
+  type-aliases-package: com.xdx.garbage.entity
+  #类型转换类的存放位置
+  type-handlers-package: com.xdx.garbage.handle
+  configuration:
+    #使用驼峰法
+    map-underscore-to-camel-case: true
+pagehelper:
+  helperDialect: mysql
+  supportMethodsArguments: true
+  params: count=countSql
+  reasonable: true
+  page-size-zero: true
+xdx:
+    profiles:
+      active: debug

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdx.garbage.dao.TBagMapper">
+  <resultMap id="BaseResultMap" type="com.xdx.garbage.entity.TBag">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_del" jdbcType="INTEGER" property="isDel" />
+    <result column="bag_code" jdbcType="VARCHAR" property="bagCode" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="bag_type" jdbcType="VARCHAR" property="bagType" />
+    <result column="weight" jdbcType="DECIMAL" property="weight" />
+    <result column="rake_back" jdbcType="DECIMAL" property="rakeBack" />
+    <result column="staff_id" jdbcType="BIGINT" property="staffId" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="receive_time" jdbcType="TIMESTAMP" property="receiveTime" />
+    <result column="recovery_time" jdbcType="TIMESTAMP" property="recoveryTime" />
+  </resultMap>
+
+  <resultMap id="ExtendResultMap" type="com.xdx.garbage.entity.TBag">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_del" jdbcType="INTEGER" property="isDel" />
+    <result column="bag_code" jdbcType="VARCHAR" property="bagCode" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="bag_type" jdbcType="VARCHAR" property="bagType" />
+    <result column="weight" jdbcType="DECIMAL" property="weight" />
+    <result column="rake_back" jdbcType="DECIMAL" property="rakeBack" />
+    <result column="staff_id" jdbcType="BIGINT" property="staffId" />
+    <result column="note" jdbcType="VARCHAR" property="note" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="receive_time" jdbcType="TIMESTAMP" property="receiveTime" />
+    <result column="recovery_time" jdbcType="TIMESTAMP" property="recoveryTime" />
+    <association column="user_id" javaType="com.xdx.garbage.entity.TUser" property="user" select="com.xdx.garbage.dao.TUserMapper.selectByPrimaryKey">
+    </association>
+    <association column="staff_id" javaType="com.xdx.garbage.entity.TUser" property="staff" select="com.xdx.garbage.dao.TUserMapper.selectByPrimaryKey">
+    </association>
+  </resultMap>
+
+  <select id="selectExtendList" parameterType="com.xdx.garbage.common.dto.QueryParam"
+          resultMap="ExtendResultMap">
+    SELECT
+    *
+    FROM t_bag
+    where is_del=0
+    <if test="status != null and status !=''">
+      and status = #{status}
+    </if>
+    <if test="startTime != null and startTime !=''">
+        and create_time <![CDATA[ >= ]]> #{startTime}
+  </if>
+    <if test="endTime != null and endTime !=''">
+      and create_time <![CDATA[ <= ]]> #{endTime}
+    </if>
+    order by ${sort} ${sortOrder}
+  </select>
+  <update id="bindBag" parameterType="com.xdx.garbage.entity.TBag">
+    update t_bag
+    <set >
+      <if test="userId != null" >
+        user_id = #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="receiveTime != null" >
+        receive_time = #{receiveTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where bag_code = #{bagCode,jdbcType=VARCHAR}
+  </update>
+
+</mapper>

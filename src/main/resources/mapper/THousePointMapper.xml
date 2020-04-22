@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdx.garbage.dao.THousePointMapper">
+  <resultMap id="BaseResultMap" type="com.xdx.garbage.entity.THousePoint">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_del" jdbcType="INTEGER" property="isDel" />
+    <result column="house_id" jdbcType="BIGINT" property="houseId" />
+    <result column="point_id" jdbcType="BIGINT" property="pointId" />
+  </resultMap>
+
+  <select id="selectListByHouseId" parameterType="java.lang.Long"
+          resultType="java.lang.Long">
+    SELECT
+    point_id
+    FROM t_house_point
+    where is_del=0
+      and house_id = #{id}
+  </select>
+
+  <delete id="deleteByHouseId" parameterType="java.lang.Long">
+    delete
+    FROM t_house_point
+    where house_id = #{id}
+  </delete>
+</mapper>

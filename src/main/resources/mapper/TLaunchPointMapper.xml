@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdx.garbage.dao.TLaunchPointMapper">
+  <resultMap id="BaseResultMap" type="com.xdx.garbage.entity.TLaunchPoint">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_del" jdbcType="INTEGER" property="isDel" />
+    <result column="point_name" jdbcType="VARCHAR" property="pointName" />
+    <result column="province_id" jdbcType="BIGINT" property="provinceId" />
+    <result column="city_id" jdbcType="BIGINT" property="cityId" />
+    <result column="agent_id" jdbcType="BIGINT" property="agentId" />
+    <result column="longitude" jdbcType="VARCHAR" property="longitude" />
+    <result column="latitude" jdbcType="VARCHAR" property="latitude" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+
+  <resultMap id="ResultMapWithProvinceCity" type="com.xdx.garbage.entity.TLaunchPoint">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_del" jdbcType="INTEGER" property="isDel" />
+    <result column="point_name" jdbcType="VARCHAR" property="pointName" />
+    <result column="province_id" jdbcType="BIGINT" property="provinceId" />
+    <result column="city_id" jdbcType="BIGINT" property="cityId" />
+    <result column="agent_id" jdbcType="BIGINT" property="agentId" />
+    <result column="longitude" jdbcType="VARCHAR" property="longitude" />
+    <result column="latitude" jdbcType="VARCHAR" property="latitude" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <association column="province_id" javaType="com.xdx.garbage.entity.TProvince" property="province" select="com.xdx.garbage.dao.TProvinceMapper.selectByPrimaryKey">
+    </association>
+    <association column="city_id" javaType="com.xdx.garbage.entity.TCity" property="city" select="com.xdx.garbage.dao.TCityMapper.selectByPrimaryKey">
+    </association>
+  </resultMap>
+
+  <select id="selectListWithProvinceCity" parameterType="com.xdx.garbage.common.dto.QueryParam"
+          resultMap="ResultMapWithProvinceCity">
+    SELECT
+    *
+    FROM t_launch_point
+    where is_del=0
+    <if test="cityId != null and cityId !=''">
+      and city_id = #{cityId}
+    </if>
+    <if test="status != null and status !=''">
+      and status = #{status}
+    </if>
+    <if test="pointName != null and pointName !=''">
+      and point_name LIKE CONCAT('%', #{pointName},'%')
+    </if>
+    order by ${sort} ${sortOrder}
+  </select>
+
+
+</mapper>

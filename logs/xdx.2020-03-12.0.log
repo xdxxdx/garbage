@@ -1,0 +1,355 @@
+08:37:56.117 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 10940 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:37:56.119 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:37:57.073 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:37:57.755 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:37:57.769 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:37:57.769 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:37:57.770 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:37:58.122 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:37:58.123 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1928 ms
+08:37:58.326 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:37:59.108 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:37:59.458 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:37:59.461 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:37:59.473 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:37:59.475 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:37:59.485 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:37:59.486 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:37:59.498 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:37:59.500 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:37:59.510 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:37:59.514 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:38:00.262 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+08:38:00.491 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:38:00.514 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:38:00.517 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 4.987 seconds (JVM running for 7.498)
+08:38:17.276 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:38:17.276 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08:38:17.284 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+08:38:17.358 [http-nio-8080-exec-1] DEBUG c.x.g.d.TAdminMapper.insertSelective - ==>  Preparing: INSERT INTO t_admin ( id,user_name,pwd ) VALUES( ?,?,? ) 
+08:38:17.432 [http-nio-8080-exec-1] DEBUG c.x.g.d.TAdminMapper.insertSelective - ==> Parameters: null, xdx(String), 61608C312B822ED815EF66D44E0B844DEB2B22E5(String)
+08:38:17.451 [http-nio-8080-exec-1] DEBUG c.x.g.d.TAdminMapper.insertSelective - <==    Updates: 1
+08:38:17.456 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.insertSelective!selectKey - ==>  Executing: SELECT LAST_INSERT_ID() 
+08:38:17.487 [http-nio-8080-exec-1] TRACE c.x.g.d.T.insertSelective!selectKey - <==    Columns: LAST_INSERT_ID()
+08:38:17.487 [http-nio-8080-exec-1] TRACE c.x.g.d.T.insertSelective!selectKey - <==        Row: 1
+08:38:17.489 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.insertSelective!selectKey - <==      Total: 1
+08:46:16.045 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 12672 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:46:16.048 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:46:17.361 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:46:17.993 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:46:18.008 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:46:18.009 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:46:18.009 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:46:18.152 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:46:18.153 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1892 ms
+08:46:18.396 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:46:19.283 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:46:19.525 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:46:19.528 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:46:19.540 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:46:19.541 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:46:19.552 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:46:19.554 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:46:19.565 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:46:19.566 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:46:19.576 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:46:19.580 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:46:20.023 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xdx.hello.spring.boot.dao.TAdminMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+08:46:20.024 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+08:46:20.028 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+08:46:20.032 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+08:46:20.046 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+08:46:20.377 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xdx.hello.spring.boot.dao.TAdminMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.xdx.garbage.GarbageApplication.main(GarbageApplication.java:24)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'mapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xdx.hello.spring.boot.dao.TAdminMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.xdx.hello.spring.boot.dao.TAdminMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 32 common frames omitted
+08:49:45.008 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 11748 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:49:45.010 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:49:46.041 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:49:46.538 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:49:46.546 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:49:46.547 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:49:46.547 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:49:46.667 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:49:46.668 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1608 ms
+08:49:46.807 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:49:47.483 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:49:47.720 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:49:47.723 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:49:47.734 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:49:47.736 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:49:47.745 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:49:47.747 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:49:47.757 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:49:47.758 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:49:47.768 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:49:47.772 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:49:48.450 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+08:49:48.687 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:49:48.709 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:49:48.712 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 4.218 seconds (JVM running for 5.616)
+08:51:59.561 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:51:59.561 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08:51:59.567 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+08:51:59.704 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+08:51:59.781 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+08:51:59.802 [http-nio-8080-exec-1] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+08:51:59.804 [http-nio-8080-exec-1] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+08:51:59.805 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+08:51:59.816 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+08:51:59.817 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 123456(String)
+08:51:59.818 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+08:52:07.268 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+08:52:07.269 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+08:52:07.270 [http-nio-8080-exec-3] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+08:52:07.271 [http-nio-8080-exec-3] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+08:52:07.271 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+08:52:07.279 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+08:52:07.279 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 123456(String)
+08:52:07.281 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+08:53:40.328 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+08:53:40.329 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+08:53:40.330 [http-nio-8080-exec-5] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+08:53:40.331 [http-nio-8080-exec-5] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+08:53:40.331 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+08:53:40.340 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+08:53:40.341 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 123456(String)
+08:53:40.342 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+08:55:26.310 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 11692 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:55:26.316 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:55:27.475 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:55:28.057 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:55:28.068 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:55:28.069 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:55:28.069 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:55:28.189 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:55:28.189 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1790 ms
+08:55:28.389 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:55:29.182 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:55:29.419 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:55:29.422 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:55:29.434 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:55:29.436 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:55:29.446 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:55:29.447 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:55:29.458 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:55:29.460 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:55:29.470 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:55:29.475 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:55:30.261 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+08:55:30.590 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:55:30.634 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:55:30.638 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 4.987 seconds (JVM running for 7.916)
+08:55:40.936 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:55:40.936 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08:55:40.944 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+08:55:41.133 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+08:55:41.230 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+08:55:41.257 [http-nio-8080-exec-3] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+08:55:41.258 [http-nio-8080-exec-3] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+08:55:41.261 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+08:55:46.491 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+08:55:46.493 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 123456(String)
+08:55:46.504 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+08:56:33.629 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+08:56:33.630 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+08:56:33.636 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+08:56:39.883 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 9688 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:56:39.886 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:56:40.796 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:56:41.328 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:56:41.340 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:56:41.340 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:56:41.340 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:56:41.460 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:56:41.460 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1443 ms
+08:56:41.638 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:56:42.415 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:56:42.620 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:56:42.624 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:56:42.635 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:56:42.637 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:56:42.648 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:56:42.649 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:56:42.660 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:56:42.661 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:56:42.671 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:56:42.675 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:56:43.470 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+08:56:43.736 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:56:43.763 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:56:43.768 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 4.39 seconds (JVM running for 6.328)
+08:57:02.091 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:57:02.091 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08:57:02.098 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+08:57:02.263 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+08:57:02.362 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+08:57:02.387 [http-nio-8080-exec-1] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+08:57:02.389 [http-nio-8080-exec-1] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+08:57:02.390 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+08:57:08.873 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+08:57:08.873 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+08:57:08.875 [http-nio-8080-exec-2] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+08:57:08.876 [http-nio-8080-exec-2] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+08:57:08.876 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+08:57:15.017 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+08:57:15.020 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 123456(String)
+08:57:15.030 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+08:57:34.860 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+08:57:34.861 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+08:57:34.862 [http-nio-8080-exec-3] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+08:57:34.863 [http-nio-8080-exec-3] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+08:57:34.863 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+08:57:34.872 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+08:57:34.872 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 123456(String)
+08:57:34.874 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+08:58:49.866 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+08:58:49.867 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+08:58:49.874 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+08:58:57.550 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 3896 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:58:57.553 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:58:58.565 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:58:59.097 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:58:59.111 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:58:59.112 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:58:59.112 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:58:59.248 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:58:59.249 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1622 ms
+08:58:59.426 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:59:00.207 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:59:00.429 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:59:00.433 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:59:00.445 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:59:00.449 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:59:00.471 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:59:00.473 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:59:00.484 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:59:00.486 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:59:00.499 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:59:00.507 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:59:01.686 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+08:59:02.014 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:59:02.041 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:59:02.045 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 5.266 seconds (JVM running for 6.882)
+08:59:05.827 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:59:05.827 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08:59:05.835 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+08:59:06.018 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+08:59:06.118 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: admin(String)
+08:59:06.148 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+08:59:22.211 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+08:59:22.212 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+08:59:22.213 [http-nio-8080-exec-3] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+08:59:22.215 [http-nio-8080-exec-3] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+08:59:22.217 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+08:59:22.227 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+08:59:22.227 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 123456(String)
+08:59:22.228 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+08:59:22.305 [http-nio-8080-exec-4] INFO  c.x.g.controller.AdminController - DF55BB2DFF15FEE3F8637FBC904F7D91dddddddddd
+09:11:59.627 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+09:11:59.628 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+09:11:59.629 [http-nio-8080-exec-5] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+09:11:59.629 [http-nio-8080-exec-5] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+09:11:59.630 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+09:11:59.639 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+09:11:59.639 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 123456(String)
+09:11:59.641 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+09:11:59.733 [http-nio-8080-exec-2] INFO  c.x.g.controller.AdminController - DF55BB2DFF15FEE3F8637FBC904F7D91dddddddddd
+09:12:44.281 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+09:12:44.281 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+09:12:44.283 [http-nio-8080-exec-6] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+09:12:44.283 [http-nio-8080-exec-6] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+09:12:44.283 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+09:12:48.007 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+09:12:48.009 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 123456(String)
+09:12:48.019 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 0
+09:15:13.355 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+09:15:13.357 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+09:15:13.363 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+09:15:23.184 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 13804 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+09:15:23.187 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+09:15:24.282 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+09:15:24.847 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:15:24.858 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:15:24.859 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:15:24.859 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+09:15:24.984 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:15:24.985 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1731 ms
+09:15:25.168 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:15:26.031 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+09:15:26.231 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+09:15:26.235 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+09:15:26.252 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+09:15:26.255 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+09:15:26.266 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+09:15:26.267 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+09:15:26.277 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+09:15:26.279 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+09:15:26.288 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+09:15:26.292 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:15:27.051 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:15:27.298 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:15:27.326 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:15:27.329 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 4.628 seconds (JVM running for 8.044)
+09:15:39.014 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:15:39.015 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:15:39.023 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+09:15:39.201 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? 
+09:15:39.299 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String)
+09:15:39.350 [http-nio-8080-exec-1] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+09:15:39.352 [http-nio-8080-exec-1] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+09:15:39.354 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+09:15:39.367 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,user_name,pwd,role FROM t_admin WHERE user_name = ? AND pwd = ? 
+09:15:39.367 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - ==> Parameters: xdx(String), 61608C312B822ED815EF66D44E0B844DEB2B22E5(String)
+09:15:39.369 [http-nio-8080-exec-1] TRACE c.x.g.dao.TAdminMapper.selectOne - <==    Columns: id, create_time, update_time, user_name, pwd, role
+09:15:39.369 [http-nio-8080-exec-1] TRACE c.x.g.dao.TAdminMapper.selectOne - <==        Row: 1, 2020-03-12 08:38:17, null, xdx, 61608C312B822ED815EF66D44E0B844DEB2B22E5, 'admin'
+09:15:39.370 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TAdminMapper.selectOne - <==      Total: 1
+09:15:39.512 [http-nio-8080-exec-2] INFO  c.x.g.controller.AdminController - 361746B298CA199B3359CAA1F9AD7B6Dddddddddddcom.xdx.garbage.entity.TAdmin@2c16d10e
+09:15:39.512 [http-nio-8080-exec-2] INFO  c.x.g.controller.AdminController - 361746B298CA199B3359CAA1F9AD7B6D
+09:15:39.954 [http-nio-8080-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /undefined
+09:15:40.066 [http-nio-8080-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /undefined
+09:17:01.970 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+09:17:01.971 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+09:17:01.975 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdx.garbage.dao.TCityMapper">
+    <resultMap id="BaseResultMap" type="com.xdx.garbage.entity.TCity">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="is_del" jdbcType="INTEGER" property="isDel"/>
+        <result column="province_id" jdbcType="BIGINT" property="provinceId"/>
+        <result column="city_name" jdbcType="VARCHAR" property="cityName"/>
+        <association column="province_id" javaType="com.xdx.garbage.entity.TProvince" property="province"
+                     select="com.xdx.garbage.dao.TProvinceMapper.selectByPrimaryKey"></association>
+    </resultMap>
+
+    <resultMap id="ResultMapWithProvince" type="com.xdx.garbage.entity.TCity">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="is_del" jdbcType="INTEGER" property="isDel"/>
+        <result column="province_id" jdbcType="BIGINT" property="provinceId"/>
+        <result column="city_name" jdbcType="VARCHAR" property="cityName"/>
+        <association column="province_id" javaType="com.xdx.garbage.entity.TProvince" property="province"
+                     select="com.xdx.garbage.dao.TProvinceMapper.selectByPrimaryKey"></association>
+    </resultMap>
+
+    <select id="selectListWithProvince" parameterType="com.xdx.garbage.common.dto.QueryParam"
+            resultMap="ResultMapWithProvince">
+        SELECT
+        *
+        FROM t_city
+        where is_del=0
+        <if test="provinceId != null and provinceId !=''">
+            and province_id = #{provinceId}
+        </if>
+        order by ${sort} ${sortOrder}
+    </select>
+
+    <select id="selectListByProvinceId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+      SELECT
+      *
+      FROM t_city
+      where  province_id=#{id}
+    </select>
+</mapper>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xdx.garbage.dao.TProvinceMapper">
+  <resultMap id="BaseResultMap" type="com.xdx.garbage.entity.TProvince">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_del" jdbcType="INTEGER" property="isDel" />
+    <result column="province_name" jdbcType="VARCHAR" property="provinceName" />
+  </resultMap>
+
+  <resultMap id="ResultMapWithCities" type="com.xdx.garbage.entity.TProvince">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_del" jdbcType="INTEGER" property="isDel" />
+    <result column="province_name" jdbcType="VARCHAR" property="provinceName" />
+    <collection property="cities" column="id" ofType="com.xdx.garbage.entity.TCity"
+                select="com.xdx.garbage.dao.TCityMapper.selectListByProvinceId">
+    </collection>
+  </resultMap>
+
+  <select id="selectListWithCities" parameterType="com.xdx.garbage.common.dto.QueryParam" resultMap="ResultMapWithCities">
+    SELECT
+    *
+    FROM t_province
+    where is_del=0
+    <if test="provinceName != null and provinceName !=''">
+      and province_name LIKE CONCAT('%', #{provinceName},'%')
+    </if>
+    order by ${sort} ${sortOrder}
+  </select>
+</mapper>
