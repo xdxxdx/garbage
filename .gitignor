@@ -1,0 +1,6 @@
+#忽略以下文件的提交
+/target/
+.idea
+.project
+.settings
+.iml
