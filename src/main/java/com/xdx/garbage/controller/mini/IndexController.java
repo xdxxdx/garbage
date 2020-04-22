@@ -201,4 +201,8 @@ public class IndexController {
        newsService.increaseReadNum(news);
        return BaseResponse.success();
     }
+
+    public String testBranch(){
+        return null;
+    }
 }
