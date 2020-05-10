@@ -25,6 +25,7 @@
         <common-lang3.version>3.8.1</common-lang3.version>
         <fast-json.version>1.2.47</fast-json.version>
         <httpclient.version>4.5.12</httpclient.version>
+        <bouncycastle.version>1.60</bouncycastle.version>
     </properties>
 
     <dependencies>
@@ -114,6 +115,13 @@
             <version>${httpclient.version}</version>
         </dependency>
         <!--httpClient end-->
+        <!--bouncycastle begin-->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk14</artifactId>
+            <version>${bouncycastle.version}</version>
+        </dependency>
+        <!--bouncycastle end-->
     </dependencies>
     <!--    <profiles>-->
     <!--        <profile>-->
@@ -145,6 +153,7 @@
     <!--        </profile>-->
     <!--    </profiles>-->
     <build>
+        <finalName>garbage1.1</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

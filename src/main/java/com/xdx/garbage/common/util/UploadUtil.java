@@ -13,7 +13,9 @@ import java.io.IOException;
 import static org.springframework.util.ResourceUtils.getURL;
 
 public class UploadUtil {
-    private final static String dist="D:\\nginx-1.10.2\\garbage\\upload";
+//    private final static String dist="D:\\nginx-1.10.2\\garbage\\upload";
+    private final static String dist="//usr//local//attach//upload//";
+    //home//weblogic//upload//
 
     public static String upload(HttpServletRequest req, MultipartFile upload,String path)  {
         Integer result = 0;

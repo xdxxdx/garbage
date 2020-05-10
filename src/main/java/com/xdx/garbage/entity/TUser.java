@@ -44,6 +44,14 @@ public class TUser {
     @Column(name = "user_role")
     private String userRole;
 
+    @Column(name = "contact_phone")
+    private String contactPhone;
+
+    @Column(name = "contact_name")
+    private String contactName;
+
+    private THouse house;
+
     /**
      * @return id
      */
@@ -204,5 +212,41 @@ public class TUser {
      */
     public void setUserRole(String userRole) {
         this.userRole = userRole;
+    }
+
+    /**
+     * @return contact_phone
+     */
+    public String getContactPhone() {
+        return contactPhone;
+    }
+
+    /**
+     * @param contactPhone
+     */
+    public void setContactPhone(String contactPhone) {
+        this.contactPhone = contactPhone;
+    }
+
+    /**
+     * @return contact_name
+     */
+    public String getContactName() {
+        return contactName;
+    }
+
+    /**
+     * @param contactName
+     */
+    public void setContactName(String contactName) {
+        this.contactName = contactName;
+    }
+
+    public THouse getHouse() {
+        return house;
+    }
+
+    public void setHouse(THouse house) {
+        this.house = house;
     }
 }

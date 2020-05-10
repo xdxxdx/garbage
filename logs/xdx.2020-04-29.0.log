@@ -1,0 +1,26 @@
+08:05:03.285 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 8196 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+08:05:03.301 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+08:05:04.159 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+08:05:04.627 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:05:04.642 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:05:04.642 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:05:04.642 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+08:05:04.751 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:05:04.751 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1372 ms
+08:05:04.923 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:05:05.703 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:05.921 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:05.937 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:05.937 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:05.953 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:05.953 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:05.953 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:05.968 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:05.968 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+08:05:05.984 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+08:05:05.984 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:05:07.050 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+08:05:07.050 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+08:05:07.252 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:05:07.284 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:05:07.284 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 4.53 seconds (JVM running for 6.788)

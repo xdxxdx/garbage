@@ -27,7 +27,7 @@
         <!--配置dao的存放路径-->
         <javaClientGenerator targetPackage="com.xdx.garbage.dao" targetProject="src/main/java" type="XMLMAPPER" />
         <!--配置需要生成的表，%代表所有的表-->
-        <table tableName="t_bag" domainObjectName="TBag">
+        <table tableName="t_door_recycle" domainObjectName="TDoorRecycle">
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
     </context>

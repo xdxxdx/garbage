@@ -28,6 +28,9 @@ public class BagServiceImpl extends BaseServiceImpl<TBagMapper, TBag> implements
         Example example = new Example(TBag.class);
         Example.Criteria criteria = example.createCriteria();
         criteria.andEqualTo("isDel",0);
+        if(queryParam.getUserId() != null){
+            criteria.andEqualTo("user_id", queryParam.getUserId());
+        }
         if(queryParam.getStatus() != null){
             criteria.andEqualTo("status", queryParam.getStatus());
         }

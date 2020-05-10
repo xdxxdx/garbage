@@ -1,0 +1,445 @@
+07:41:28.870 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 6268 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+07:41:28.872 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+07:41:29.949 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+07:41:30.472 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+07:41:30.487 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+07:41:30.488 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+07:41:30.489 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+07:41:30.613 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+07:41:30.613 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1580 ms
+07:41:30.782 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+07:41:31.721 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:41:32.136 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:41:32.139 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:41:32.156 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:41:32.157 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:41:32.168 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:41:32.170 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:41:32.179 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:41:32.180 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+07:41:32.190 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+07:41:32.193 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+07:41:33.500 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+07:41:33.502 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+07:41:33.814 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+07:41:33.839 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+07:41:33.842 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 5.618 seconds (JVM running for 8.948)
+07:41:50.898 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07:41:50.899 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+07:41:50.910 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+07:41:51.330 [http-nio-8080-exec-2] INFO  c.x.g.c.mini.IndexController - wx591ae471bd6ee7ad
+07:41:51.330 [http-nio-8080-exec-2] INFO  c.x.g.c.mini.IndexController - fa762c002f452c5df06c2a4be070cb8d
+07:41:51.908 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE open_id = ? 
+07:41:52.001 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ(String)
+07:41:52.048 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:41:52.048 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:41:52.048 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:41:52.064 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:41:52.064 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:41:52.064 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:41:52.064 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:41:52.064 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:41:52.144 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:41:52.145 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:41:52.147 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:41:52.147 [http-nio-8080-exec-3] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:41:52.148 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:41:52.164 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:41:52.165 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:41:52.178 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:41:52.178 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:41:52.179 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:42:50.366 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+07:42:50.369 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+07:42:50.383 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+07:42:50.383 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+07:42:50.384 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+07:42:50.385 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+07:42:50.385 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+07:42:50.385 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+07:42:50.396 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:42:50.396 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:42:50.398 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:42:50.399 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:42:50.400 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:42:50.527 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,point_name,province_id,city_id,agent_id,longitude,latitude,status FROM t_launch_point WHERE ( is_del = ? and status = ? ) 
+07:42:50.527 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer), 1(Integer)
+07:42:50.538 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, point_name, province_id, city_id, agent_id, longitude, latitude, status
+07:42:50.539 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 1, 2020-03-17 08:54:56, 2020-03-17 08:56:43, 0, 绿苑新城投放点, 1, 2, 2, 11.34, 23.12, 1
+07:42:50.540 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-17 22:18:22, 2020-03-17 22:18:26, 0, 阿罗海投放点, 1, 2, 4, 118.0322590000, 24.480410000, 1
+07:42:50.540 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - <==      Total: 2
+07:43:48.973 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:43:48.974 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:43:48.975 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:43:48.976 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:43:48.976 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:43:48.984 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:43:48.985 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:43:48.986 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:43:48.986 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:43:48.987 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:44:04.411 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:44:04.412 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:44:04.413 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:44:04.414 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:44:04.414 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:44:04.423 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:44:04.424 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:44:04.425 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:44:04.425 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:44:04.426 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:44:24.190 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:44:24.190 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:44:24.193 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:44:24.193 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:44:24.194 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:44:24.202 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:44:24.203 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:44:24.204 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:44:24.205 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:44:24.205 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:45:03.961 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:45:03.961 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:45:03.963 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:45:03.964 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:45:03.964 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:45:03.975 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:45:03.975 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:45:03.978 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:45:03.979 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:45:03.981 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:46:59.878 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:46:59.879 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:46:59.881 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:46:59.881 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:46:59.882 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:46:59.889 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:46:59.890 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:46:59.891 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:46:59.891 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:46:59.891 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:47:10.047 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:47:10.048 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:47:10.050 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:47:10.050 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:47:10.050 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:47:10.057 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:47:10.058 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:47:10.059 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:47:10.060 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:47:10.060 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:47:53.669 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:47:53.670 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:47:53.671 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:47:53.672 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:47:53.672 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:47:53.681 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:47:53.681 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:47:53.682 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:47:53.683 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:47:53.683 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:48:02.608 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /undefined
+07:48:02.608 [http-nio-8080-exec-3] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+07:48:52.834 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:48:52.835 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:48:52.836 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:48:52.836 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:48:52.837 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:48:52.844 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:48:52.845 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:48:52.846 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:48:52.847 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:48:52.847 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:49:06.479 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:49:06.480 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:49:06.481 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:49:06.482 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:49:06.482 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:49:06.490 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:49:06.490 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:49:06.492 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:49:06.492 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:49:06.492 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:49:10.499 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.updateByPrimaryKeySelective - ==>  Preparing: UPDATE t_user SET id = id,phone = ?,contact_phone = ? WHERE id = ? 
+07:49:10.502 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.updateByPrimaryKeySelective - ==> Parameters: 15260220397(String), 15260220397(String), 1(Long)
+07:49:10.505 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.updateByPrimaryKeySelective - <==    Updates: 1
+07:49:10.534 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:49:10.535 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:49:10.536 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:49:10.537 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:49:10.537 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:49:21.503 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:49:21.503 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:49:21.505 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:49:21.505 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:49:21.505 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:49:21.513 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:49:21.514 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:49:21.515 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:49:21.515 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:49:21.516 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:49:51.257 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:49:51.258 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:49:51.260 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:49:51.260 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:49:51.264 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:49:51.271 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:49:51.272 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:49:51.273 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:49:51.273 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:49:51.274 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:51:46.319 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+07:51:46.320 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+07:51:46.322 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+07:51:46.322 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+07:51:46.323 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+07:51:46.323 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+07:51:46.324 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+07:51:46.324 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+07:51:46.331 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:51:46.332 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:51:46.333 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:51:46.333 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:51:46.334 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:51:47.162 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,point_name,province_id,city_id,agent_id,longitude,latitude,status FROM t_launch_point WHERE ( is_del = ? and status = ? ) 
+07:51:47.162 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer), 1(Integer)
+07:51:47.162 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, point_name, province_id, city_id, agent_id, longitude, latitude, status
+07:51:47.162 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 1, 2020-03-17 08:54:56, 2020-03-17 08:56:43, 0, 绿苑新城投放点, 1, 2, 2, 11.34, 23.12, 1
+07:51:47.162 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-17 22:18:22, 2020-03-17 22:18:26, 0, 阿罗海投放点, 1, 2, 4, 118.0322590000, 24.480410000, 1
+07:51:47.162 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByExample - <==      Total: 2
+07:52:49.023 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:52:49.024 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:52:49.026 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:52:49.026 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:52:49.026 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:52:49.035 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:52:49.036 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:52:49.039 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:52:49.039 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:52:49.039 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:52:51.569 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:52:51.570 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:52:51.571 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:52:51.571 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:52:51.571 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:52:51.579 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:52:51.579 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:52:51.580 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:52:51.580 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:52:51.581 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:52:56.854 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:52:56.855 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:52:56.856 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:52:56.856 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:52:56.856 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:52:56.864 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:52:56.864 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:52:56.865 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:52:56.866 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:52:56.866 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:53:06.180 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:53:06.180 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:53:06.181 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:53:06.182 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:53:06.182 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:53:06.214 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:53:06.215 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:53:06.216 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:53:06.216 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:53:06.217 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:54:03.494 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:54:03.494 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:54:03.495 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:54:03.496 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:54:03.496 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:54:03.503 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:54:03.503 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:54:03.504 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:54:03.505 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:54:03.505 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:54:50.116 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:54:50.117 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:54:50.118 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:54:50.118 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:54:50.118 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:54:50.126 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:54:50.126 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:54:50.127 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:54:50.128 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:54:50.128 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:54:54.256 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:54:54.256 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:54:54.258 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:54:54.258 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-27 20:37:12, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 多对多, 0.00, 15260220397, 'user', 15260220397, 多对多
+07:54:54.259 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:54:54.265 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:54:54.266 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:54:54.267 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:54:54.267 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:54:54.267 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:55:14.146 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.updateByPrimaryKeySelective - ==>  Preparing: UPDATE t_user SET id = id,house_id = ?,house_detail = ?,contact_phone = ?,contact_name = ? WHERE id = ? 
+07:55:14.146 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.updateByPrimaryKeySelective - ==> Parameters: 3(Integer), 三号楼8832(String), 15260220397(String), 谢先生(String), 1(Long)
+07:55:14.162 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.updateByPrimaryKeySelective - <==    Updates: 1
+07:55:14.530 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:55:14.530 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:55:14.531 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:55:14.531 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 07:55:14, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 0.00, 15260220397, 'user', 15260220397, 谢先生
+07:55:14.532 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:55:14.538 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:55:14.539 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:55:14.540 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:55:14.540 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:55:14.540 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:55:23.362 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:55:23.363 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:55:23.364 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:55:23.364 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 07:55:14, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 0.00, 15260220397, 'user', 15260220397, 谢先生
+07:55:23.364 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:55:23.370 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:55:23.371 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:55:23.372 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:55:23.372 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:55:23.372 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:55:27.469 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:55:27.470 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:55:27.471 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:55:27.471 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 07:55:14, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 0.00, 15260220397, 'user', 15260220397, 谢先生
+07:55:27.472 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:55:27.480 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:55:27.480 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:55:27.481 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:55:27.481 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:55:27.482 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:55:29.189 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,status,photo_src,jump_url,show_place FROM t_carousel WHERE ( is_del = ? ) order by id desc 
+07:55:29.190 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer)
+07:55:29.191 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, status, photo_src, jump_url, show_place
+07:55:29.191 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 6, 2020-03-14 10:54:18, 2020-03-14 11:57:57, 0, 0, /upload/carousel/28590a411d5f407e9417daeb97550507.png, xxxx, null
+07:55:29.191 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 4, 2020-03-14 07:42:04, 2020-03-14 08:41:33, 0, 1, /upload/b7c371f451ac4108b2163c728dd93b2a.jpg, gggggggggg, null
+07:55:29.192 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 3, 2020-03-14 07:40:20, null, 0, 0, /upload/aa75d22830954dcb9915d1239befb0cb.jpg, xxxxxxx, null
+07:55:29.192 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-14 00:37:37, null, 0, 0, /upload/6afeca802b7a4d7e94b3a945ea30c2e4.jpg, dddd, null
+07:55:29.192 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByExample - <==      Total: 4
+07:55:29.199 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:55:29.200 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:55:29.201 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:55:29.201 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 07:55:14, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 0.00, 15260220397, 'user', 15260220397, 谢先生
+07:55:29.201 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:55:29.455 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==>  Preparing: SELECT id,create_time,update_time,is_del,point_name,province_id,city_id,agent_id,longitude,latitude,status FROM t_launch_point WHERE ( is_del = ? and status = ? ) 
+07:55:29.456 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - ==> Parameters: 0(Integer), 1(Integer)
+07:55:29.457 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==    Columns: id, create_time, update_time, is_del, point_name, province_id, city_id, agent_id, longitude, latitude, status
+07:55:29.458 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 1, 2020-03-17 08:54:56, 2020-03-17 08:56:43, 0, 绿苑新城投放点, 1, 2, 2, 11.34, 23.12, 1
+07:55:29.458 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByExample - <==        Row: 2, 2020-03-17 22:18:22, 2020-03-17 22:18:26, 0, 阿罗海投放点, 1, 2, 4, 118.0322590000, 24.480410000, 1
+07:55:29.459 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByExample - <==      Total: 2
+07:55:32.772 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:55:32.772 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:55:32.773 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:55:32.774 [http-nio-8080-exec-6] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 07:55:14, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 0.00, 15260220397, 'user', 15260220397, 谢先生
+07:55:32.774 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:55:32.781 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:55:32.782 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:55:32.783 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:55:32.783 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:55:32.783 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:55:51.521 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:55:51.522 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:55:51.523 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:55:51.523 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 07:55:14, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 0.00, 15260220397, 'user', 15260220397, 谢先生
+07:55:51.523 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:55:51.531 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:55:51.532 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:55:51.533 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:55:51.533 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:55:51.533 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+07:59:27.329 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+07:59:27.330 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+07:59:27.331 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+07:59:27.331 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 07:55:14, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 0.00, 15260220397, 'user', 15260220397, 谢先生
+07:59:27.331 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+07:59:27.338 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+07:59:27.339 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+07:59:27.340 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+07:59:27.340 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+07:59:27.340 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+08:00:54.292 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+08:00:54.292 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+08:00:54.292 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+08:00:54.292 [http-nio-8080-exec-7] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 07:55:14, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 0.00, 15260220397, 'user', 15260220397, 谢先生
+08:00:54.292 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+08:00:54.292 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+08:00:54.292 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+08:00:54.308 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+08:00:54.308 [http-nio-8080-exec-7] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+08:00:54.308 [http-nio-8080-exec-7] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+08:00:57.562 [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /undefined
+08:00:57.563 [http-nio-8080-exec-10] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+08:01:13.111 [http-nio-8080-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /undefined
+08:01:13.112 [http-nio-8080-exec-3] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+08:25:20.968 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+08:25:20.968 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+08:25:20.969 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+08:25:20.969 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 07:55:14, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 0.00, 15260220397, 'user', 15260220397, 谢先生
+08:25:20.970 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+08:25:20.976 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+08:25:20.977 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+08:25:20.978 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+08:25:20.978 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+08:25:20.978 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+08:26:47.515 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+08:26:47.516 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+08:26:47.517 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+08:26:47.517 [http-nio-8080-exec-10] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 08:26:37, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 2.00, 15260220397, 'user', 15260220397, 谢先生
+08:26:47.517 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+08:26:47.523 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+08:26:47.524 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+08:26:47.525 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+08:26:47.525 [http-nio-8080-exec-10] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+08:26:47.525 [http-nio-8080-exec-10] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+08:28:04.294 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+08:28:04.295 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+08:28:04.296 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+08:28:04.296 [http-nio-8080-exec-4] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 08:26:37, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 2.00, 15260220397, 'user', 15260220397, 谢先生
+08:28:04.297 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+08:28:04.304 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+08:28:04.304 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+08:28:04.305 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+08:28:04.305 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+08:28:04.305 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+08:28:20.500 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+08:28:20.500 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+08:28:20.502 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+08:28:20.502 [http-nio-8080-exec-9] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 08:26:37, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 2.00, 15260220397, 'user', 15260220397, 谢先生
+08:28:20.502 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+08:28:20.509 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+08:28:20.509 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+08:28:20.510 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+08:28:20.511 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+08:28:20.511 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+08:32:37.335 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+08:32:37.336 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+08:32:37.337 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+08:32:37.337 [http-nio-8080-exec-1] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 08:26:37, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 2.00, 15260220397, 'user', 15260220397, 谢先生
+08:32:37.337 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+08:32:37.344 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+08:32:37.344 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+08:32:37.345 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+08:32:37.345 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+08:32:37.345 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+08:32:39.558 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+08:32:39.558 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+08:32:39.559 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+08:32:39.560 [http-nio-8080-exec-2] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 08:26:37, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 2.00, 15260220397, 'user', 15260220397, 谢先生
+08:32:39.560 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+08:34:00.737 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+08:34:00.738 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+08:34:00.739 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+08:34:00.739 [http-nio-8080-exec-5] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 08:26:37, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 2.00, 15260220397, 'user', 15260220397, 谢先生
+08:34:00.739 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1
+08:34:00.746 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ==>  Preparing: SELECT id,create_time,update_time,is_del,house_name,province_id,city_id FROM t_house WHERE id = ? 
+08:34:00.747 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ==> Parameters: 3(Integer)
+08:34:00.748 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <==    Columns: id, create_time, update_time, is_del, house_name, province_id, city_id
+08:34:00.748 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 绿源小区, 1, 2
+08:34:00.748 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - <==      Total: 1
+08:34:04.650 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==>  Preparing: SELECT id,create_time,update_time,is_del,open_id,nick_name,house_id,house_detail,balance,phone,user_role,contact_phone,contact_name FROM t_user WHERE id = ? 
+08:34:04.651 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - ==> Parameters: 1(Long)
+08:34:04.652 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==    Columns: id, create_time, update_time, is_del, open_id, nick_name, house_id, house_detail, balance, phone, user_role, contact_phone, contact_name
+08:34:04.652 [http-nio-8080-exec-8] TRACE c.x.g.dao.TUserMapper.selectOne - <==        Row: 1, 2020-03-25 22:12:40, 2020-04-28 08:26:37, 0, oqYVK5ETZ7sBkFXrW5NcIVdmh8EQ, null, 3, 三号楼8832, 2.00, 15260220397, 'user', 15260220397, 谢先生
+08:34:04.652 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TUserMapper.selectOne - <==      Total: 1

@@ -51,6 +51,9 @@
     *
     FROM t_bag
     where is_del=0
+    <if test="userId != null and userId !=''">
+      and user_id = #{userId}
+    </if>
     <if test="status != null and status !=''">
       and status = #{status}
     </if>

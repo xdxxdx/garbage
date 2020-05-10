@@ -8,7 +8,7 @@ spring:
     cache: false
   profiles:
     active:
-      dev
+      prod
   #允许用户自定义的类覆盖系统提供的类
   main:
     allow-bean-definition-overriding: true
@@ -40,3 +40,12 @@ pagehelper:
 xdx:
     profiles:
       active: debug
+# 线程池参数配置
+async:
+  executor:
+    thread:
+      core_pool_size: 6
+      max_pool_size: 6
+      queue_capacity: 9999
+      name:
+        prefix: async-service-

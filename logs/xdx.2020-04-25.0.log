@@ -1,0 +1,660 @@
+14:56:13.028 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 17728 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+14:56:13.031 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+14:56:14.127 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+14:56:14.673 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:56:14.686 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:56:14.687 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:56:14.687 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+14:56:14.821 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:56:14.821 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1717 ms
+14:56:15.325 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+14:56:16.056 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+14:56:16.345 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+14:56:16.348 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+14:56:16.361 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+14:56:16.362 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+14:56:16.373 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+14:56:16.375 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+14:56:16.387 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+14:56:16.389 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+14:56:16.399 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+14:56:16.402 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:56:17.406 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+14:56:17.416 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+14:56:17.623 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:56:17.649 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:56:17.652 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 5.434 seconds (JVM running for 8.064)
+15:02:43.029 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:02:43.029 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:02:43.038 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+15:02:43.101 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:02:43.179 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:02:43.206 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:02:43.207 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:02:43.209 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:02:43.209 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:03:20.048 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:03:20.049 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:03:20.050 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:03:20.051 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:03:20.052 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:03:20.053 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:03:46.889 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:03:46.890 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:03:46.892 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:03:46.893 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:03:46.894 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:03:46.894 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:04:05.934 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:04:05.935 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:04:05.937 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:04:05.937 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:04:05.938 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:04:05.938 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:04:30.592 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:04:30.593 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:04:30.594 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:04:30.595 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:04:30.596 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:04:30.596 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:06:07.616 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:06:07.617 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:06:07.619 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:06:07.620 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:06:07.620 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:06:07.621 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:06:18.305 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:06:18.306 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:06:18.307 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:06:18.308 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:06:18.308 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:06:18.309 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:08:12.996 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:08:12.997 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:08:12.999 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:08:13.000 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:08:13.000 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:08:13.002 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:17:51.123 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:17:51.123 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:17:51.125 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:17:51.126 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:17:51.126 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:17:51.126 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:18:13.218 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:18:13.219 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:18:13.220 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:18:13.220 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:18:13.221 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:18:13.221 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:24:13.805 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:24:13.806 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:24:13.807 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:24:13.808 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:24:13.808 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:24:13.808 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:25:52.841 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:25:52.842 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:25:52.847 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:25:52.847 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:25:52.848 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:25:52.848 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:27:40.570 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:27:40.571 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:27:40.572 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:27:40.573 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:27:40.573 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:27:40.574 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:28:22.251 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:28:22.252 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:28:22.254 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:28:22.254 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:28:22.255 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:28:22.255 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:28:24.898 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:28:24.899 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:28:24.901 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:28:24.901 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:28:24.902 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:28:24.902 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:29:04.718 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:29:04.719 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:29:04.721 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:29:04.722 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:29:04.723 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:29:04.723 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:33:32.975 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:33:32.975 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:33:32.977 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:33:32.977 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:33:32.978 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:33:32.978 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:33:48.132 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:33:48.132 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:33:48.135 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:33:48.135 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:33:48.136 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:33:48.136 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:39:08.854 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:39:08.854 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:39:08.856 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:39:08.857 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:39:08.857 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:39:08.857 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:41:05.227 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:41:05.228 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:41:05.229 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:41:05.230 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:41:05.230 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:41:05.231 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:56:19.696 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:56:19.696 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:56:19.698 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:56:19.698 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:56:19.699 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:56:19.699 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:57:20.457 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:57:20.458 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:57:20.460 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:57:20.461 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:57:20.462 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:57:20.462 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:58:25.711 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+15:58:25.712 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+15:58:25.713 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+15:58:25.713 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+15:58:25.714 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+15:58:25.714 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+15:58:28.371 [http-nio-8080-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mini/city/list
+15:58:28.381 [http-nio-8080-exec-6] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+15:58:35.580 [http-nio-8080-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /mini/city/list
+15:58:35.582 [http-nio-8080-exec-7] ERROR c.x.g.c.interceptor.BackInterceptor - 拦截路径/error
+15:59:46.473 [main] INFO  com.xdx.garbage.GarbageApplication - Starting GarbageApplication on PC-2019HWL with PID 11708 (D:\xdxgit\my-project\garbage\target\classes started by Administrator in D:\xdxgit\my-project\garbage)
+15:59:46.476 [main] INFO  com.xdx.garbage.GarbageApplication - The following profiles are active: dev
+15:59:47.473 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.xdx.garbage]' package. Please check your configuration.
+15:59:48.007 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:59:48.018 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:59:48.018 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:59:48.019 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+15:59:48.139 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:59:48.139 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1602 ms
+15:59:48.302 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+15:59:49.058 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+15:59:49.273 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+15:59:49.276 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+15:59:49.288 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+15:59:49.289 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+15:59:49.300 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+15:59:49.302 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+15:59:49.312 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+15:59:49.313 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接开始前
+15:59:49.323 [main] INFO  com.xdx.garbage.druid.CustomFilter - 连接连接结束后
+15:59:49.327 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:59:50.382 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+15:59:50.383 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'asyncServiceExecutor'
+15:59:50.601 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:59:50.628 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:59:50.632 [main] INFO  com.xdx.garbage.GarbageApplication - Started GarbageApplication in 4.695 seconds (JVM running for 7.336)
+16:00:09.902 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:00:09.903 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:00:09.911 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+16:00:23.949 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectListWithProvince - ==>  Preparing: SELECT * FROM t_city where is_del=0 and province_id = ? order by id desc 
+16:00:24.463 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectListWithProvince - ==> Parameters: 2(Long)
+16:00:24.728 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectListWithProvince - <==    Columns: id, create_time, update_time, is_del, province_id, city_name
+16:00:24.736 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectListWithProvince - <==        Row: 3, 2020-03-15 22:34:15, null, 0, 2, 深圳市
+16:00:24.754 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+16:00:24.763 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 2(Long)
+16:00:24.773 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+16:00:24.775 [http-nio-8080-exec-1] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+16:00:24.777 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+16:00:24.782 [http-nio-8080-exec-1] DEBUG c.x.g.d.T.selectListWithProvince - <==      Total: 1
+16:01:33.929 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectListWithProvince - ==>  Preparing: SELECT * FROM t_city where is_del=0 and province_id = ? order by id desc 
+16:01:33.930 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectListWithProvince - ==> Parameters: 1(Long)
+16:01:33.932 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectListWithProvince - <==    Columns: id, create_time, update_time, is_del, province_id, city_name
+16:01:33.932 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectListWithProvince - <==        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+16:01:33.933 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+16:01:33.933 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+16:01:33.935 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+16:01:33.935 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+16:01:33.936 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+16:01:33.936 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectListWithProvince - <==      Total: 1
+16:02:47.421 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+16:02:47.422 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+16:02:47.423 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+16:02:47.424 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+16:02:47.424 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+16:02:47.424 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+16:02:55.951 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvince - ==>  Preparing: SELECT * FROM t_city where is_del=0 and province_id = ? order by id desc 
+16:02:55.952 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvince - ==> Parameters: 1(Long)
+16:02:55.954 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListWithProvince - <==    Columns: id, create_time, update_time, is_del, province_id, city_name
+16:02:55.955 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListWithProvince - <==        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+16:02:55.956 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+16:02:55.956 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+16:02:55.958 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+16:02:55.958 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+16:02:55.959 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+16:02:55.959 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvince - <==      Total: 1
+16:10:58.535 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+16:10:58.536 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+16:10:58.540 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+16:10:58.541 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+16:10:58.545 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+16:10:58.546 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+16:11:06.373 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectListWithProvince - ==>  Preparing: SELECT * FROM t_city where is_del=0 and province_id = ? order by id desc 
+16:11:06.375 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectListWithProvince - ==> Parameters: 2(Long)
+16:11:06.377 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectListWithProvince - <==    Columns: id, create_time, update_time, is_del, province_id, city_name
+16:11:06.377 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectListWithProvince - <==        Row: 3, 2020-03-15 22:34:15, null, 0, 2, 深圳市
+16:11:06.379 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+16:11:06.380 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 2(Long)
+16:11:06.382 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+16:11:06.383 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+16:11:06.383 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+16:11:06.384 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectListWithProvince - <==      Total: 1
+16:11:55.977 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+16:11:55.977 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+16:11:55.979 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+16:11:55.979 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+16:11:55.980 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+16:11:55.980 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+16:13:36.164 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+16:13:36.164 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+16:13:36.166 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+16:13:36.166 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+16:13:36.167 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+16:13:36.168 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+16:13:39.933 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectListWithProvince - ==>  Preparing: SELECT * FROM t_city where is_del=0 and province_id = ? order by id desc 
+16:13:39.934 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectListWithProvince - ==> Parameters: 2(Long)
+16:13:39.936 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectListWithProvince - <==    Columns: id, create_time, update_time, is_del, province_id, city_name
+16:13:39.937 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectListWithProvince - <==        Row: 3, 2020-03-15 22:34:15, null, 0, 2, 深圳市
+16:13:39.937 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+16:13:39.938 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 2(Long)
+16:13:39.940 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+16:13:39.940 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+16:13:39.940 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+16:13:39.941 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectListWithProvince - <==      Total: 1
+16:13:41.959 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==>  Preparing: SELECT * FROM t_house where is_del=0 and city_id = ? order by id desc 
+16:13:41.960 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==> Parameters: 3(Long)
+16:13:41.964 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListWithProvinceCity - <==      Total: 0
+17:57:20.122 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvince - ==>  Preparing: SELECT * FROM t_city where is_del=0 and province_id = ? order by id desc 
+17:57:20.123 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvince - ==> Parameters: 1(Long)
+17:57:20.127 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListWithProvince - <==    Columns: id, create_time, update_time, is_del, province_id, city_name
+17:57:20.127 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListWithProvince - <==        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+17:57:20.128 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+17:57:20.128 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+17:57:20.130 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+17:57:20.131 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+17:57:20.131 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+17:57:20.133 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvince - <==      Total: 1
+17:57:23.107 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==>  Preparing: SELECT * FROM t_house where is_del=0 and city_id = ? order by id desc 
+17:57:23.107 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==> Parameters: 2(Long)
+17:57:23.109 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==    Columns: id, create_time, update_time, is_del, province_id, city_id, house_name
+17:57:23.109 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 5, 2020-03-17 22:44:33, null, 0, 1, 2, ddddd
+17:57:23.110 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+17:57:23.110 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+17:57:23.112 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+17:57:23.112 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+17:57:23.113 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+17:57:23.113 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_id,city_name FROM t_city WHERE id = ? 
+17:57:23.115 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 2(Long)
+17:57:23.117 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_id, city_name
+17:57:23.117 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+17:57:23.118 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+17:57:23.118 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+17:57:23.118 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 5(Long)
+17:57:23.123 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+17:57:23.123 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 2
+17:57:23.123 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+17:57:23.123 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 2
+17:57:23.124 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 4, 2020-03-17 22:25:14, null, 0, 1, 2, 多对多
+17:57:23.125 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+17:57:23.126 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 4(Long)
+17:57:23.127 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+17:57:23.127 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+17:57:23.127 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+17:57:23.128 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 1, 2, 绿源小区
+17:57:23.129 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+17:57:23.129 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 3(Long)
+17:57:23.130 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+17:57:23.130 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+17:57:23.130 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+17:57:23.131 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 2, 2020-03-15 22:25:42, 2020-03-15 22:34:28, 0, 1, 2, 绿苑新城
+17:57:23.132 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+17:57:23.132 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 2(Long)
+17:57:23.134 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+17:57:23.134 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+17:57:23.134 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+17:57:23.134 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListWithProvinceCity - <==      Total: 4
+18:01:18.920 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:01:18.921 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:01:18.922 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:01:18.922 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:01:18.924 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:01:18.925 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:04:14.937 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:04:14.937 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:04:14.939 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:04:14.939 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:04:14.940 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:04:14.940 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:05:11.235 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:05:11.235 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:05:11.237 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:05:11.237 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:05:11.238 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:05:11.238 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:05:27.585 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:05:27.585 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:05:27.587 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:05:27.587 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:05:27.588 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:05:27.588 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:05:35.785 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:05:35.785 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:05:35.786 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:05:35.787 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:05:35.788 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:05:35.788 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:07:24.249 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:07:24.249 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:07:24.251 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:07:24.251 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:07:24.252 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:07:24.252 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:07:41.568 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:07:41.569 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:07:41.570 [http-nio-8080-exec-6] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:07:41.570 [http-nio-8080-exec-6] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:07:41.571 [http-nio-8080-exec-6] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:07:41.571 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:08:41.065 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:08:41.065 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:08:41.077 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:08:41.077 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:08:41.078 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:08:41.078 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:08:48.270 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:08:48.270 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:08:48.271 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:08:48.272 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:08:48.272 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:08:48.272 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:09:10.742 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:09:10.743 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:09:10.746 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:09:10.746 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:09:10.747 [http-nio-8080-exec-9] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:09:10.747 [http-nio-8080-exec-9] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:09:23.194 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:09:23.195 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:09:23.196 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:09:23.197 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:09:23.197 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:09:23.197 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:10:07.736 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:10:07.736 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:10:07.737 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:10:07.738 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:10:07.739 [http-nio-8080-exec-1] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:10:07.739 [http-nio-8080-exec-1] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:10:22.675 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:10:22.675 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:10:22.676 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:10:22.678 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:10:22.678 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:10:22.678 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:10:34.049 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:10:34.050 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:10:34.052 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:10:34.054 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:10:34.055 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:10:34.056 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:10:51.701 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:10:51.702 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:10:51.703 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:10:51.703 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:10:51.704 [http-nio-8080-exec-4] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:10:51.704 [http-nio-8080-exec-4] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:11:24.306 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvince - ==>  Preparing: SELECT * FROM t_city where is_del=0 and province_id = ? order by id desc 
+18:11:24.307 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvince - ==> Parameters: 1(Long)
+18:11:24.308 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListWithProvince - <==    Columns: id, create_time, update_time, is_del, province_id, city_name
+18:11:24.308 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListWithProvince - <==        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+18:11:24.309 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+18:11:24.310 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+18:11:24.311 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+18:11:24.312 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:11:24.312 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:11:24.312 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvince - <==      Total: 1
+18:11:26.337 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==>  Preparing: SELECT * FROM t_house where is_del=0 and city_id = ? order by id desc 
+18:11:26.338 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==> Parameters: 2(Long)
+18:11:26.339 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==    Columns: id, create_time, update_time, is_del, province_id, city_id, house_name
+18:11:26.339 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 5, 2020-03-17 22:44:33, null, 0, 1, 2, ddddd
+18:11:26.340 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+18:11:26.340 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+18:11:26.341 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+18:11:26.342 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:11:26.342 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:11:26.343 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_id,city_name FROM t_city WHERE id = ? 
+18:11:26.343 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 2(Long)
+18:11:26.344 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_id, city_name
+18:11:26.344 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+18:11:26.345 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:11:26.345 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:11:26.346 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 5(Long)
+18:11:26.347 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:11:26.347 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 2
+18:11:26.347 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:11:26.347 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 2
+18:11:26.348 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 4, 2020-03-17 22:25:14, null, 0, 1, 2, 多对多
+18:11:26.349 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:11:26.350 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 4(Long)
+18:11:26.351 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:11:26.351 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:11:26.351 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:11:26.352 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 1, 2, 绿源小区
+18:11:26.353 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:11:26.353 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 3(Long)
+18:11:26.354 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:11:26.354 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:11:26.355 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:11:26.355 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 2, 2020-03-15 22:25:42, 2020-03-15 22:34:28, 0, 1, 2, 绿苑新城
+18:11:26.356 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:11:26.356 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 2(Long)
+18:11:26.358 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:11:26.358 [http-nio-8080-exec-6] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:11:26.358 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:11:26.358 [http-nio-8080-exec-6] DEBUG c.x.g.d.T.selectListWithProvinceCity - <==      Total: 4
+18:12:01.620 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:12:01.621 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:12:01.623 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:12:01.624 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:12:01.625 [http-nio-8080-exec-7] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:12:01.625 [http-nio-8080-exec-7] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:12:04.783 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectListWithProvince - ==>  Preparing: SELECT * FROM t_city where is_del=0 and province_id = ? order by id desc 
+18:12:04.784 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectListWithProvince - ==> Parameters: 1(Long)
+18:12:04.785 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectListWithProvince - <==    Columns: id, create_time, update_time, is_del, province_id, city_name
+18:12:04.786 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectListWithProvince - <==        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+18:12:04.786 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+18:12:04.787 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+18:12:04.788 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+18:12:04.788 [http-nio-8080-exec-8] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:12:04.788 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:12:04.789 [http-nio-8080-exec-8] DEBUG c.x.g.d.T.selectListWithProvince - <==      Total: 1
+18:12:06.780 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==>  Preparing: SELECT * FROM t_house where is_del=0 and city_id = ? order by id desc 
+18:12:06.781 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==> Parameters: 2(Long)
+18:12:06.782 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListWithProvinceCity - <==    Columns: id, create_time, update_time, is_del, province_id, city_id, house_name
+18:12:06.783 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 5, 2020-03-17 22:44:33, null, 0, 1, 2, ddddd
+18:12:06.783 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+18:12:06.784 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+18:12:06.785 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+18:12:06.786 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:12:06.786 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:12:06.787 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_id,city_name FROM t_city WHERE id = ? 
+18:12:06.787 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 2(Long)
+18:12:06.789 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_id, city_name
+18:12:06.789 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+18:12:06.789 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:12:06.790 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:12:06.790 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 5(Long)
+18:12:06.791 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:12:06.791 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 2
+18:12:06.791 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:12:06.792 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 2
+18:12:06.792 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 4, 2020-03-17 22:25:14, null, 0, 1, 2, 多对多
+18:12:06.793 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:12:06.793 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 4(Long)
+18:12:06.794 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:12:06.794 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:12:06.794 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:12:06.795 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 1, 2, 绿源小区
+18:12:06.796 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:12:06.796 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 3(Long)
+18:12:06.798 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:12:06.798 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:12:06.798 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:12:06.798 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 2, 2020-03-15 22:25:42, 2020-03-15 22:34:28, 0, 1, 2, 绿苑新城
+18:12:06.799 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:12:06.799 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 2(Long)
+18:12:06.802 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:12:06.802 [http-nio-8080-exec-9] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:12:06.802 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:12:06.802 [http-nio-8080-exec-9] DEBUG c.x.g.d.T.selectListWithProvinceCity - <==      Total: 4
+18:12:44.751 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:12:44.752 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:12:44.753 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:12:44.754 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:12:44.754 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:12:44.754 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:13:59.007 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectListWithProvince - ==>  Preparing: SELECT * FROM t_city where is_del=0 and province_id = ? order by id desc 
+18:13:59.007 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectListWithProvince - ==> Parameters: 1(Long)
+18:13:59.009 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectListWithProvince - <==    Columns: id, create_time, update_time, is_del, province_id, city_name
+18:13:59.009 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectListWithProvince - <==        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+18:13:59.010 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+18:13:59.010 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+18:13:59.012 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+18:13:59.012 [http-nio-8080-exec-2] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:13:59.012 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:13:59.012 [http-nio-8080-exec-2] DEBUG c.x.g.d.T.selectListWithProvince - <==      Total: 1
+18:14:01.011 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==>  Preparing: SELECT * FROM t_house where is_del=0 and city_id = ? order by id desc 
+18:14:01.012 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==> Parameters: 2(Long)
+18:14:01.013 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListWithProvinceCity - <==    Columns: id, create_time, update_time, is_del, province_id, city_id, house_name
+18:14:01.014 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 5, 2020-03-17 22:44:33, null, 0, 1, 2, ddddd
+18:14:01.014 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+18:14:01.014 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+18:14:01.017 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+18:14:01.018 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:14:01.018 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:14:01.018 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_id,city_name FROM t_city WHERE id = ? 
+18:14:01.019 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 2(Long)
+18:14:01.020 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_id, city_name
+18:14:01.020 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+18:14:01.021 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:14:01.021 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:14:01.022 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 5(Long)
+18:14:01.024 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:14:01.024 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 2
+18:14:01.024 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:14:01.024 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 2
+18:14:01.025 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 4, 2020-03-17 22:25:14, null, 0, 1, 2, 多对多
+18:14:01.025 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:14:01.026 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 4(Long)
+18:14:01.030 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:14:01.031 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:14:01.031 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:14:01.031 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 1, 2, 绿源小区
+18:14:01.032 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:14:01.032 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 3(Long)
+18:14:01.033 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:14:01.033 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:14:01.034 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:14:01.034 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 2, 2020-03-15 22:25:42, 2020-03-15 22:34:28, 0, 1, 2, 绿苑新城
+18:14:01.037 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:14:01.037 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 2(Long)
+18:14:01.038 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:14:01.038 [http-nio-8080-exec-3] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:14:01.038 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:14:01.039 [http-nio-8080-exec-3] DEBUG c.x.g.d.T.selectListWithProvinceCity - <==      Total: 4
+18:22:08.937 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:22:08.937 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:22:08.938 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:22:08.939 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:22:08.939 [http-nio-8080-exec-5] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:22:08.939 [http-nio-8080-exec-5] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:23:04.197 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:23:04.197 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:23:04.200 [http-nio-8080-exec-6] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:23:04.202 [http-nio-8080-exec-6] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:23:04.203 [http-nio-8080-exec-6] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:23:04.203 [http-nio-8080-exec-6] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:28:25.009 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:28:25.010 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:28:25.011 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:28:25.011 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:28:25.012 [http-nio-8080-exec-8] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:28:25.012 [http-nio-8080-exec-8] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:31:44.338 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:31:44.339 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:31:44.340 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:31:44.340 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:31:44.340 [http-nio-8080-exec-10] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:31:44.341 [http-nio-8080-exec-10] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:36:34.623 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:36:34.623 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:36:34.625 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:36:34.625 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:36:34.625 [http-nio-8080-exec-2] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:36:34.626 [http-nio-8080-exec-2] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:37:03.496 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province 
+18:37:03.497 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - ==> Parameters: 
+18:37:03.501 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==    Columns: id, create_time, update_time, is_del, province_name
+18:37:03.501 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:37:03.501 [http-nio-8080-exec-3] TRACE c.x.g.dao.TProvinceMapper.selectAll - <==        Row: 2, 2020-03-15 17:25:02, null, 0, 广东省
+18:37:03.502 [http-nio-8080-exec-3] DEBUG c.x.g.dao.TProvinceMapper.selectAll - <==      Total: 2
+18:37:10.164 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==>  Preparing: SELECT * FROM t_house where is_del=0 and house_name LIKE CONCAT('%', ?,'%') order by id desc 
+18:37:10.168 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==> Parameters: 绿源(String)
+18:37:10.170 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectListWithProvinceCity - <==    Columns: id, create_time, update_time, is_del, province_id, city_id, house_name
+18:37:10.171 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 1, 2, 绿源小区
+18:37:10.172 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+18:37:10.172 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+18:37:10.174 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+18:37:10.174 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:37:10.175 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:37:10.176 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_id,city_name FROM t_city WHERE id = ? 
+18:37:10.176 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 2(Long)
+18:37:10.177 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_id, city_name
+18:37:10.177 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+18:37:10.178 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:37:10.178 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:37:10.178 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 3(Long)
+18:37:10.179 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:37:10.179 [http-nio-8080-exec-4] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:37:10.180 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:37:10.180 [http-nio-8080-exec-4] DEBUG c.x.g.d.T.selectListWithProvinceCity - <==      Total: 1
+18:37:14.051 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==>  Preparing: SELECT * FROM t_house where is_del=0 and house_name LIKE CONCAT('%', ?,'%') order by id desc 
+18:37:14.052 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvinceCity - ==> Parameters: 绿(String)
+18:37:14.053 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListWithProvinceCity - <==    Columns: id, create_time, update_time, is_del, province_id, city_id, house_name
+18:37:14.053 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 3, 2020-03-17 22:23:31, null, 0, 1, 2, 绿源小区
+18:37:14.054 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_name FROM t_province WHERE id = ? 
+18:37:14.054 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 1(Long)
+18:37:14.055 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_name
+18:37:14.056 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 1, 2020-03-15 15:49:29, 2020-03-15 15:49:38, 0, 福建省
+18:37:14.056 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:37:14.057 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====>  Preparing: SELECT id,create_time,update_time,is_del,province_id,city_name FROM t_city WHERE id = ? 
+18:37:14.057 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - ====> Parameters: 2(Long)
+18:37:14.058 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====    Columns: id, create_time, update_time, is_del, province_id, city_name
+18:37:14.059 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectByPrimaryKey - <====        Row: 2, 2020-03-15 17:08:34, 2020-03-15 17:25:32, 0, 1, 厦门市
+18:37:14.059 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectByPrimaryKey - <====      Total: 1
+18:37:14.059 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:37:14.060 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 3(Long)
+18:37:14.061 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:37:14.061 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:37:14.061 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:37:14.061 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListWithProvinceCity - <==        Row: 2, 2020-03-15 22:25:42, 2020-03-15 22:34:28, 0, 1, 2, 绿苑新城
+18:37:14.062 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListByHouseId - ====>  Preparing: SELECT point_id FROM t_house_point where is_del=0 and house_id = ? 
+18:37:14.062 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListByHouseId - ====> Parameters: 2(Long)
+18:37:14.063 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListByHouseId - <====    Columns: point_id
+18:37:14.063 [http-nio-8080-exec-5] TRACE c.x.g.d.T.selectListByHouseId - <====        Row: 1
+18:37:14.063 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListByHouseId - <====      Total: 1
+18:37:14.064 [http-nio-8080-exec-5] DEBUG c.x.g.d.T.selectListWithProvinceCity - <==      Total: 2
+22:05:45.633 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'asyncServiceExecutor'
+22:05:45.635 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+22:05:45.641 [SpringContextShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -22,12 +22,4 @@ spring:
       test-on-return: true
       test-while-idle: true
 xdx: dev
-# 线程池参数配置
-async:
-  executor:
-    thread:
-      core_pool_size: 6
-      max_pool_size: 6
-      queue_capacity: 9999
-      name:
-        prefix: async-service-
+
