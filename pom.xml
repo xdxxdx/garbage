@@ -24,7 +24,7 @@
         <pagehelper.version>1.2.3</pagehelper.version>
         <common-lang3.version>3.8.1</common-lang3.version>
         <fast-json.version>1.2.47</fast-json.version>
-        <httpclient.version>4.5.12</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
         <bouncycastle.version>1.60</bouncycastle.version>
     </properties>
 
